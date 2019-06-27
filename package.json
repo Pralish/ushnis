@@ -1,0 +1,21 @@
+{
+  "name": "ushnis-portfoliio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://github.com/Pralish/ushnis",
+  "scripts": {
+    "deploy": "gh-pages"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pralish/ushnis.git"
+  },
+  "keywords": [],
+  "author": "Pralish Kayastha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pralish/ushnis/issues"
+  },
+  "homepage": "https://github.com/Pralish/ushnis#readme"
+}
