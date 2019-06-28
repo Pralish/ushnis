@@ -1,35 +1,51 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
-  overflow: hidden;
   margin: 0;
   font-family: "montserrat", Arial, Helvetica, sans-serif;
-  background: white;
+  background: #f7f7f7;
+}
+
+section {
+  height: 100vh;
+}
+
+.container {
+  overflow: hidden;
 }
 
 #main {
-  height: 100vh;
+  position: relative;
   width: 100vw;
-  overflow: hidden;
 }
 
-#main:before {
-  content: "";
+#main .heading {
   position: absolute;
-  z-index: 10;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.1);
+  width: 800px;
+  height: 400vh;
+  left: 102px;
+  top: 200px;
+  line-height: 1.3;
 }
 
-#main .lg-heading {
-  margin: 200px 0 0 70px;
-  font-size: 5rem;
+#main .heading p {
+  font-size: 30px;
 }
 
-#main .lg-heading span {
-  color: blue;
+#main .heading ul {
+  margin: -20px 0 0 -10px;
+  padding: 0;
+  list-style: none;
+  font-size: 95px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  font-weight: bolder;
 }
 
 .bg-image {
@@ -37,8 +53,9 @@ body {
   position: absolute;
   bottom: -30px;
   right: 0;
+  overflow: hidden;
   width: 500px;
-  height: 560px;
+  height: 600px;
   -webkit-transition: -webkit-filter 0.2s ease-in-out 0.2s;
   transition: -webkit-filter 0.2s ease-in-out 0.2s;
   transition: filter 0.2s ease-in-out 0.2s;

@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://github.com/Pralish/ushnis",
+  "homepage": "https://github.com/Pralish/ushnis#readme",
   "scripts": {
-    "deploy": "gh-pages"
+    "deploy": "gh-pages -d "
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,7 @@
   "bugs": {
     "url": "https://github.com/Pralish/ushnis/issues"
   },
-  "homepage": "https://github.com/Pralish/ushnis#readme"
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
